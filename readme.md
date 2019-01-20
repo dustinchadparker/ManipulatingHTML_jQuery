@@ -1,30 +1,16 @@
-Simple jQuery Drills
-Objective
-Practice using the fundamentals of jQuery that were explored in lecture.
+Manipulating HTML using DOM & jQuery
+Covalence
 
-Setup
-Create a new project folder and connect it to a GitHub repository. Initialize your project with a README.md that has a brief description of the purpose of this assignment, along with the title "jQuery Drills".
-Create an index.html file and an app.js file and link the two together.
-Create a script tag in the index.html and link to the jQuery CDN.
-Tasks
-In app.js, make sure all the HTML has loaded before using jQuery. (hint)
-Create an <input> with a type="submit", id="btnSubmit", and value="Submit" in the index.html. Open the index.html in a browser and verify that a button appears.
-In app.js and use jQuery to select the <input> element you just created by the id.
-Add a click event handler to the <input> button that will alert a message in the browser when the button is clicked. (hint)
-In the index.html, create a <form> element with an <input type="text"> field and the <input type="submit"> you already created.
-In app.js when the form is submitted, alert the value of the text input field. (hint) (hint)
-If the user has typed in the input field then the button should be enabled, otherwise the button should be disabled. (hint)
-Create a div element and append it to the body.
-When the user types in the input field and clicks submit, append the text in an h2 element to the div
-When the user mouses over the h2 element, assign it a new background color and border radius. (hint)
-Great job! Now, delete the code for creating the h2 and we are going to work on creating a list
-Use jQuery to create an unordered list and append it to the body
-When the user submits the form, append the text as list item to the unordered list
-When the user clicks on the li element, assign it a random color.
-When the user double clicks on the list, remove the item that was clicked on. (hint)
-Hints
-jQuery on method: http://api.jquery.com/on/
-jQuery click method: https://api.jquery.com/click/
-Math.random() can be used to generate a random number
-RGB colors range from rgb(0, 0, 0) for black to rgb(255, 255, 255) for white
-You will want to generate 3 random numbers between 0 and 255 and set the RGB values using jQuery
+Info
+This lab asks you to perform various tasks, first using only the DOM, and then using only JQuery.
+Your project folder should consist of 2 folders, DOM and JQuery, each containing an index.html, JS file, and any CSS files.
+You should complete the tasks first in the DOM folder using only the DOM, and then complete the same tasks again in the JQuery folder using only JQuery.
+Number each example in your html page to correspond with the objective numbers below.
+
+Objectives
+Make a button appear on the page when it's first loaded. The button cannot already be in your html. When the button is clicked, you should display an Alert box with any (nice) message.
+Make a button and text box (you can just put them in your HTML). When the button is clicked, display an alert with the message that is typed in the text box.
+Create a div in HTML. Without using CSS :hover, make the div change to a different background color when your mouse hovers over it. The div should return to its original color when the mouse exits the div.
+Put some text in a paragraph. Make it where when you click on the paragraph, the color of the text switches to red. Once you get that working, try to rewrite your code to make it switch to a random color each click (you don't have to show the code for just red once you get random working).
+Add a button and an empty div. When the button is clicked, add a span that contains your name to the empty div.
+Create a button and a ul in your HTML. In JavaScript, create an array containing the names of your friends (at least 10. If you don't have that many, include your imaginary ones). When the button is clicked, add each friend's name as an li to the ul on the page.
